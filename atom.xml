@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://wwvvv.github.io</id>
+    <id>https://mydh.xyz</id>
     <title>MY导航 一个小众网站导航</title>
-    <updated>2020-02-26T04:13:21.066Z</updated>
+    <updated>2020-02-26T04:17:54.060Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://wwvvv.github.io"/>
-    <link rel="self" href="https://wwvvv.github.io/atom.xml"/>
-    <logo>https://wwvvv.github.io/images/avatar.png</logo>
-    <icon>https://wwvvv.github.io/favicon.ico</icon>
+    <link rel="alternate" href="https://mydh.xyz"/>
+    <link rel="self" href="https://mydh.xyz/atom.xml"/>
+    <logo>https://mydh.xyz/images/avatar.png</logo>
+    <icon>https://mydh.xyz/favicon.ico</icon>
     <rights>All rights reserved 2020, MY导航 一个小众网站导航</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://wwvvv.github.io/hello-gridea/</id>
-        <link href="https://wwvvv.github.io/hello-gridea/">
+        <id>https://mydh.xyz/hello-gridea/</id>
+        <link href="https://mydh.xyz/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
