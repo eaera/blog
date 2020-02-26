@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mydh.xyz</id>
-    <title>MY导航 | 一个小众网站导航</title>
-    <updated>2020-02-26T05:22:36.458Z</updated>
+    <title>MY导航 | 老司机最爱的网站导航</title>
+    <updated>2020-02-26T05:29:49.831Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mydh.xyz"/>
     <link rel="self" href="https://mydh.xyz/atom.xml"/>
     <logo>https://mydh.xyz/images/avatar.png</logo>
     <icon>https://mydh.xyz/favicon.ico</icon>
-    <rights>All rights reserved 2020, MY导航 | 一个小众网站导航</rights>
+    <rights>All rights reserved 2020, MY导航 | 老司机最爱的网站导航</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://mydh.xyz/hello-gridea/</id>
