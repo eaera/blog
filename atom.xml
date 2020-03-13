@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.miui.xyz</id>
-    <title>MY导航 | 老司机最爱的网站导航</title>
-    <updated>2020-03-13T11:06:09.639Z</updated>
+    <title>MIUIXYZ BLOG</title>
+    <updated>2020-03-13T11:16:46.636Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.miui.xyz"/>
     <link rel="self" href="https://blog.miui.xyz/atom.xml"/>
     <logo>https://blog.miui.xyz/images/avatar.png</logo>
     <icon>https://blog.miui.xyz/favicon.ico</icon>
-    <rights>All rights reserved 2020, MY导航 | 老司机最爱的网站导航</rights>
+    <rights>All rights reserved 2020, MIUIXYZ BLOG</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://blog.miui.xyz/hello-gridea/</id>
