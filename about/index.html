@@ -2,8 +2,8 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | MIUIXYZ BLOG</title>
-<meta name="description" content="" />
+<title>关于 | 米优</title>
+<meta name="description" content="are you ok" />
 <link rel="shortcut icon" href="https://blog.miui.xyz/favicon.ico">
 <link rel="stylesheet" href="https://blog.miui.xyz/styles/main.css">
 
@@ -36,7 +36,7 @@
         <div class="menu-wrapper">
           <div class="">
             <div class="logo">
-              <a href="https://blog.miui.xyz"><img src="" alt=""></a>
+              <a href="https://blog.miui.xyz"><img src="/media/images/custom-headerLogo.png" alt=""></a>
             </div>
             <!-- start: .main-nav -->
 
@@ -45,8 +45,14 @@
                 <li class=""><a href="https://blog.miui.xyz" class="menu">首页</a></li>
                 
                   <li class="" >
-                    <a href="/" class="menu">
-                      首页
+                    <a href="/books/" class="menu">
+                      阅读
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/movies/" class="menu">
+                      观影
                     </a>
                   </li>
                 
@@ -57,14 +63,8 @@
                   </li>
                 
                   <li class="" >
-                    <a href="/tags" class="menu">
-                      标签
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/post/about" class="menu">
-                      关于
+                    <a href="/friends/" class="menu">
+                      友链
                     </a>
                   </li>
                 
@@ -84,7 +84,7 @@
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1584098165339" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1584103696639" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -97,9 +97,14 @@
       <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
         <div class="center content">
-          <div class="featured-image cover" style="background-image: url('');">
+          <div class="featured-image cover" style="background-image: url('/media/images/gridea.jpg');">
             <div class="meta top"> 
               <time class="meta-info" style="float:left;" datetime="2019-01-25"><i class="fa fa-calendar"></i><span class="lately">1 年前</span></time>
+              
+              <a href="https://blog.miui.xyz/about/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/about/"> </span>
+              </a>
+              <span id="/about/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
               
             </div>
             <div class="info">
@@ -141,9 +146,26 @@
               
             
               <div id="comments" class="bg-white hosted ">
-                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+                <div class="clear"></div>
+<script>
+jQuery(document).ready(function($){
+    $('.vemoji-btn').text('😀');
+    $("#comments").on('click', 'span.vat',function(){
+        $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        $('textarea#veditor').focus();
+    })
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-200}, 600);
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+})
+</script>
+
               </div>
-              <div class="clear"></div>
             
 
             </div>
@@ -160,7 +182,7 @@
                   
                   <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
                     <a href="https://blog.miui.xyz/about/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
                     </a>
                     <div class="info gradient-effect">
                       <time datetime="2019-01-25">2019-01-25</time>
@@ -196,7 +218,7 @@
                   <h4 class="widget-title title white bordered">标签云</h4>
                   <div class="tagcloud">
                     
-                      <a href="https://blog.miui.xyz/1xJgHp34f/" class="ctag ctag-0 ctag-1xJgHp34f" aria-label="">Gridea</a>
+                      <a href="https://blog.miui.xyz/tag/1xJgHp34f/" class="ctag ctag-0 ctag-1xJgHp34f" aria-label="">Gridea</a>
                     
                   </div>
                   <div class="clear"></div>
@@ -210,18 +232,26 @@
                     <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://blog.miui.xyz/images/avatar.png);"></span></a>
                   </div>
                   <div class="info">
-                    <h4 class="title small author-name gradient-effect no-margin"><a href="">MIUIXYZ BLOG</a></h4>
-                    <p class="founder"></p>
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">米优</a></h4>
+                    <p class="founder">are you ok</p>
                     <div class="social">
                       
+                          
+                            <a href="https://github.com/eaera" class="translate-effect" target="_blank"><i class="fa fa-github"></i></a>
+                        
+                      
+                          
+                            <a href="https://twitter.com/ddlicn" class="translate-effect" target="_blank"><i class="fa fa-twitter"></i></a>
                         
                       
                         
                       
+                          
+                            <a href="https://t.me/ddlicn" class="translate-effect" target="_blank"><i class="fa fa-telegram"></i></a>
                         
                       
-                        
-                      
+                          
+                            <a href="https://blog.miui.xyz/atom.xml" class="translate-effect" target="_blank"><i class="fa fa-feed"></i></a>
                         
                       
                     </div> 
@@ -235,7 +265,7 @@
         </div>
 
         <div class="logo">
-          <a href="https://blog.miui.xyz"><img src="" alt=""></a>
+          <a href="https://blog.miui.xyz"><img src="/media/images/custom-footerLogo.png" alt=""></a>
         </div>
         <p class="published border-effect">
           ©2019 共 2 篇文章
@@ -251,6 +281,19 @@
     <div class="clear"></div>
 
         
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/valine/1.3.10/Valine.Pure.min.js"></script>
+<script>
+    new Valine({
+        el: '#comments',
+        appId: 'hknrhArdzfieWCH7wtT7OhQE-gzGzoHsz' ,
+        appKey: '43CyE43Ieqa46JncdFQm5x0q',
+        pageSize: 30,
+        placeholder: '既然来了，那就留个痕迹吧~',
+        visitor: true // 阅读量统计
+    })
+</script>
+    
 
       
     <script src="https://blog.miui.xyz/media/js/functions-post.js"></script>
