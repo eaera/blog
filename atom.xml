@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.miui.xyz</id>
     <title>米维ACG</title>
-    <updated>2020-04-05T07:34:09.182Z</updated>
+    <updated>2020-04-06T09:07:41.874Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.miui.xyz"/>
     <link rel="self" href="https://blog.miui.xyz/atom.xml"/>
@@ -11,10 +11,10 @@
     <icon>https://blog.miui.xyz/favicon.ico</icon>
     <rights>All rights reserved 2020, 米维ACG</rights>
     <entry>
-        <title type="html"><![CDATA[Hello]]></title>
-        <id>https://blog.miui.xyz/hello/</id>
-        <link href="https://blog.miui.xyz/hello/">
+        <title type="html"><![CDATA[堕落玩偶2 Paralogue V0.23 PC+VR最新破解版 附提取动画]]></title>
+        <id>https://blog.miui.xyz/Paralogue/</id>
+        <link href="https://blog.miui.xyz/Paralogue/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
+        <updated>2020-02-06T08:40:31.000Z</updated>
     </entry>
 </feed>
