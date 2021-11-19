@@ -1,2 +1,2 @@
 # blog
-blog.miui.xyz
+blog.icg.ink
